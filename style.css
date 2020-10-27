@@ -1,0 +1,226 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:tahoma , geneva , sans-serif;
+}
+header
+{
+    width:100%;
+    height:auto;
+    background-color:#F1948A;
+    background-size: cover;
+    margin-bottom: 40px;
+    overflow:hidden;
+    
+}
+.logo
+{
+    float:left;
+    /*margin:24px 10px 30px 150px;*/
+    position:absolute;
+    top:2.5em;
+    left:0em;
+}
+.logo h3 
+{
+    color:#FFFFFF;
+    font-size:60px;
+    font-weight:500;
+   
+}
+.logo p
+{
+     color:#FFFFFF;
+    font-size:11px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-top:1px;
+    
+}
+.socialMedia
+{
+    float:right;
+    margin:60px 150px 30px 10px;
+}
+.socialMedia li
+{
+    display:inline-block;
+   
+    margin:10px;
+}
+.socialMedia li a
+{
+    color:#fff;
+    text-decoration: none;
+}
+
+header nav
+{
+    overflow:hidden;
+    width:100%;
+        background-color:#1F2020;
+    margin:20px auto 0 auto;   
+    clear:both;
+}
+header nav ul
+{
+ text-align: center;
+}
+header nav li
+{
+     display:inline-block;
+    margin:20px;
+    text-align: center;
+}
+header nav li a
+{
+    text-transform:uppercase;
+    text-decoration: none;
+    color:#979A9A;
+    text-align: center;
+    font-size:13px;
+}
+header nav li a:hover{color:#F0F3F4;}
+
+.main
+{
+    width:80%;
+    margin:auto;
+    
+}
+.main img[alt="pic03"]
+{
+    display:block;
+    width:100%;
+    margin:auto;
+
+}
+.main div
+{
+   
+    float:left;
+}
+.meacenasluctus
+{
+    width:45%;
+    margin-left:0;
+    margin-right:10px;
+}
+.mauris , .praesent
+{
+    width:25.4%;
+}
+.mauris img , .praesent img
+{
+    margin-bottom: 10px;
+}
+.mauris
+{
+    margin:auto 20px auto 20px;
+}
+.main div h3
+{
+    font-size:25px;
+    font-weight:100;
+    margin:50px 20px 20px 0px;
+    letter-spacing:2px;
+}
+.main .meacenasluctus h3{margin-bottom: 10px;}
+ .main div p
+{
+    color:#424949;
+    font-size:14px;
+    line-height:30px;
+    margin-bottom: 40px;
+}
+.pp
+{
+    color:#424949;
+    letter-spacing:4px;
+    font-weight:100;
+    font-size:14px;
+    word-spacing:2px;
+    margin-bottom: 55px;
+}
+/*for all etiam button*/
+ div .etiam
+{
+    display:block;
+    width:200px;
+    height:40px;
+    background-color:#C0392B;
+    color:#fff;
+    text-transform:uppercase;
+    text-decoration:none;
+    text-align: center;
+    border-radius:10px;
+    padding:9px;
+    margin:30px auto 100px 0;
+    
+}
+.anean
+{
+    clear:both;
+    background-color:rgb(242, 244, 244, .7);
+    width:100%;
+    overflow:hidden;
+    border-top:solid 1px rgb(242, 244, 244, .5);
+}
+.anean h1 
+{
+    text-align:center;
+    font-size:40px;
+    letter-spacing:3px;
+    font-weight: 400;
+    margin:30px auto 15px auto;
+}
+.anean > p
+{
+    color:#424949;
+    text-align:center;
+    font-size:14px;
+    font-weight:100px;
+    letter-spacing:4px;
+    margin-bottom:100px;
+}
+.anean div
+{
+    float:left;
+    width:20%;
+    margin-right:20px;
+    
+}
+.vest
+{
+    margin:20px 20px 40px 10%;
+}
+.anean div{margin-top:20px;}
+.anean .etiam{margin:50px auto 100px;}
+.anean div h3
+{
+    font-weight:100;
+    margin-bottom:50px;
+    text-align:center;
+}
+.anean div p
+{
+    color:#7B7D7D;
+    line-height:30px;
+    text-align:center;
+}
+footer
+{
+    text-align:center;
+    padding-top:80px; 
+    color:#626567;
+    height:200px;
+    width:100%;
+    background-color:#17202A;
+    clear:both;
+}
+footer a
+{
+    color:#626567;
+}
